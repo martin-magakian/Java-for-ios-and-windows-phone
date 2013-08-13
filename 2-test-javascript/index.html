@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script type="text/javascript" src="../1-java2javascript/target/java2javascript-1.0-SNAPSHOT/java2javascript/java2javascript.nocache.js"></script>
+
+    <script>
+      function go(){
+        var bl = new jsc.BusinessLogic();
+        var add = bl.addNumber(1, 2);
+        alert("1 + 2 ="+add);
+      }
+
+      function myInit() {
+        alert("GWT ready to go");
+      }
+    </script>
+  </head>
+
+<body>
+  so2
+
+  <button onclick="go();" />
+
+</body>
+</html>
