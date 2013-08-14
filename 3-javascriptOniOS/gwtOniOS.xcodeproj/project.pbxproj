@@ -19,8 +19,7 @@
 		5B22B5C217BB4F4D00AC44CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5C117BB4F4D00AC44CA /* ViewController.m */; };
 		5B22B5C517BB4F4D00AC44CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5C317BB4F4D00AC44CA /* ViewController.xib */; };
 		5B22B5CF17BB553D00AC44CA /* JSConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5CE17BB553D00AC44CA /* JSConnector.m */; };
-		5B22B5D117BB5E5D00AC44CA /* java2javascript.nocache.js in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */; };
-		5B22B5D217BB619800AC44CA /* java2javascript.nocache.js in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */; };
+		5BC1509017BB88B2005808C9 /* java2javascript.nocache.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BC1508E17BB8891005808C9 /* java2javascript.nocache.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,7 @@
 		5B22B5C417BB4F4D00AC44CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		5B22B5CD17BB553D00AC44CA /* JSConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConnector.h; sourceTree = "<group>"; };
 		5B22B5CE17BB553D00AC44CA /* JSConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSConnector.m; sourceTree = "<group>"; };
-		5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = java2javascript.nocache.js; path = gwtOniOS/java2javascript.nocache.js; sourceTree = "<group>"; };
+		5BC1508E17BB8891005808C9 /* java2javascript.nocache.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = java2javascript.nocache.js; path = gwtOniOS/java2javascript.nocache.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +61,7 @@
 		5B22B59C17BB4F4D00AC44CA = {
 			isa = PBXGroup;
 			children = (
-				5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */,
+				5BC1508E17BB8891005808C9 /* java2javascript.nocache.js */,
 				5B22B5AE17BB4F4D00AC44CA /* gwtOniOS */,
 				5B22B5A717BB4F4D00AC44CA /* Frameworks */,
 				5B22B5A617BB4F4D00AC44CA /* Products */,
@@ -167,7 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B22B5D217BB619800AC44CA /* java2javascript.nocache.js in Resources */,
+				5BC1509017BB88B2005808C9 /* java2javascript.nocache.js in Resources */,
 				5B22B5B317BB4F4D00AC44CA /* InfoPlist.strings in Resources */,
 				5B22B5BB17BB4F4D00AC44CA /* Default.png in Resources */,
 				5B22B5BD17BB4F4D00AC44CA /* Default@2x.png in Resources */,
@@ -187,7 +186,6 @@
 				5B22B5B917BB4F4D00AC44CA /* AppDelegate.m in Sources */,
 				5B22B5C217BB4F4D00AC44CA /* ViewController.m in Sources */,
 				5B22B5CF17BB553D00AC44CA /* JSConnector.m in Sources */,
-				5B22B5D117BB5E5D00AC44CA /* java2javascript.nocache.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +306,7 @@
 				5B22B5CA17BB4F4D00AC44CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

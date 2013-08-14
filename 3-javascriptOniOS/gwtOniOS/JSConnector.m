@@ -20,7 +20,6 @@
         [pageStr appendString:@"<script>      function myInit() {alert('GWT ready to go');}</script>\n"];
         [pageStr appendString:@"</head>\n"];
         [pageStr appendString:@"<body>\n"];
-        [pageStr appendString:@"<div id=\"log\" >default </div>\n"];
         [pageStr appendString:@"</body>\n"];
         [pageStr appendString:@"</html>\n"];
         
