@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B22B5A917BB4F4D00AC44CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B22B5A817BB4F4D00AC44CA /* UIKit.framework */; };
+		5B22B5AB17BB4F4D00AC44CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B22B5AA17BB4F4D00AC44CA /* Foundation.framework */; };
+		5B22B5AD17BB4F4D00AC44CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B22B5AC17BB4F4D00AC44CA /* CoreGraphics.framework */; };
+		5B22B5B317BB4F4D00AC44CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5B117BB4F4D00AC44CA /* InfoPlist.strings */; };
+		5B22B5B517BB4F4D00AC44CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5B417BB4F4D00AC44CA /* main.m */; };
+		5B22B5B917BB4F4D00AC44CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5B817BB4F4D00AC44CA /* AppDelegate.m */; };
+		5B22B5BB17BB4F4D00AC44CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5BA17BB4F4D00AC44CA /* Default.png */; };
+		5B22B5BD17BB4F4D00AC44CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5BC17BB4F4D00AC44CA /* Default@2x.png */; };
+		5B22B5BF17BB4F4D00AC44CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5BE17BB4F4D00AC44CA /* Default-568h@2x.png */; };
+		5B22B5C217BB4F4D00AC44CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5C117BB4F4D00AC44CA /* ViewController.m */; };
+		5B22B5C517BB4F4D00AC44CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5C317BB4F4D00AC44CA /* ViewController.xib */; };
+		5B22B5CF17BB553D00AC44CA /* JSConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5CE17BB553D00AC44CA /* JSConnector.m */; };
+		5B22B5D117BB5E5D00AC44CA /* java2javascript.nocache.js in Sources */ = {isa = PBXBuildFile; fileRef = 5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */; };
+		5B22B5D217BB619800AC44CA /* java2javascript.nocache.js in Resources */ = {isa = PBXBuildFile; fileRef = 5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B22B5A517BB4F4D00AC44CA /* gwtOniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gwtOniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B22B5A817BB4F4D00AC44CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B22B5AA17BB4F4D00AC44CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B22B5AC17BB4F4D00AC44CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B22B5B017BB4F4D00AC44CA /* gwtOniOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gwtOniOS-Info.plist"; sourceTree = "<group>"; };
+		5B22B5B217BB4F4D00AC44CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B22B5B417BB4F4D00AC44CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B22B5B617BB4F4D00AC44CA /* gwtOniOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gwtOniOS-Prefix.pch"; sourceTree = "<group>"; };
+		5B22B5B717BB4F4D00AC44CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B22B5B817BB4F4D00AC44CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B22B5BA17BB4F4D00AC44CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B22B5BC17BB4F4D00AC44CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B22B5BE17BB4F4D00AC44CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B22B5C017BB4F4D00AC44CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B22B5C117BB4F4D00AC44CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B22B5C417BB4F4D00AC44CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B22B5CD17BB553D00AC44CA /* JSConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConnector.h; sourceTree = "<group>"; };
+		5B22B5CE17BB553D00AC44CA /* JSConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSConnector.m; sourceTree = "<group>"; };
+		5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = java2javascript.nocache.js; path = gwtOniOS/java2javascript.nocache.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B22B5A217BB4F4D00AC44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B22B5A917BB4F4D00AC44CA /* UIKit.framework in Frameworks */,
+				5B22B5AB17BB4F4D00AC44CA /* Foundation.framework in Frameworks */,
+				5B22B5AD17BB4F4D00AC44CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B22B59C17BB4F4D00AC44CA = {
+			isa = PBXGroup;
+			children = (
+				5B22B5D017BB5E5D00AC44CA /* java2javascript.nocache.js */,
+				5B22B5AE17BB4F4D00AC44CA /* gwtOniOS */,
+				5B22B5A717BB4F4D00AC44CA /* Frameworks */,
+				5B22B5A617BB4F4D00AC44CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B22B5A617BB4F4D00AC44CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B22B5A517BB4F4D00AC44CA /* gwtOniOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B22B5A717BB4F4D00AC44CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B22B5A817BB4F4D00AC44CA /* UIKit.framework */,
+				5B22B5AA17BB4F4D00AC44CA /* Foundation.framework */,
+				5B22B5AC17BB4F4D00AC44CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B22B5AE17BB4F4D00AC44CA /* gwtOniOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B22B5CD17BB553D00AC44CA /* JSConnector.h */,
+				5B22B5CE17BB553D00AC44CA /* JSConnector.m */,
+				5B22B5B717BB4F4D00AC44CA /* AppDelegate.h */,
+				5B22B5B817BB4F4D00AC44CA /* AppDelegate.m */,
+				5B22B5C017BB4F4D00AC44CA /* ViewController.h */,
+				5B22B5C117BB4F4D00AC44CA /* ViewController.m */,
+				5B22B5C317BB4F4D00AC44CA /* ViewController.xib */,
+				5B22B5AF17BB4F4D00AC44CA /* Supporting Files */,
+			);
+			path = gwtOniOS;
+			sourceTree = "<group>";
+		};
+		5B22B5AF17BB4F4D00AC44CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B22B5B017BB4F4D00AC44CA /* gwtOniOS-Info.plist */,
+				5B22B5B117BB4F4D00AC44CA /* InfoPlist.strings */,
+				5B22B5B417BB4F4D00AC44CA /* main.m */,
+				5B22B5B617BB4F4D00AC44CA /* gwtOniOS-Prefix.pch */,
+				5B22B5BA17BB4F4D00AC44CA /* Default.png */,
+				5B22B5BC17BB4F4D00AC44CA /* Default@2x.png */,
+				5B22B5BE17BB4F4D00AC44CA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B22B5A417BB4F4D00AC44CA /* gwtOniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B22B5C817BB4F4D00AC44CA /* Build configuration list for PBXNativeTarget "gwtOniOS" */;
+			buildPhases = (
+				5B22B5A117BB4F4D00AC44CA /* Sources */,
+				5B22B5A217BB4F4D00AC44CA /* Frameworks */,
+				5B22B5A317BB4F4D00AC44CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gwtOniOS;
+			productName = gwtOniOS;
+			productReference = 5B22B5A517BB4F4D00AC44CA /* gwtOniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B22B59D17BB4F4D00AC44CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = doduck.com;
+			};
+			buildConfigurationList = 5B22B5A017BB4F4D00AC44CA /* Build configuration list for PBXProject "gwtOniOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B22B59C17BB4F4D00AC44CA;
+			productRefGroup = 5B22B5A617BB4F4D00AC44CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B22B5A417BB4F4D00AC44CA /* gwtOniOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B22B5A317BB4F4D00AC44CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B22B5D217BB619800AC44CA /* java2javascript.nocache.js in Resources */,
+				5B22B5B317BB4F4D00AC44CA /* InfoPlist.strings in Resources */,
+				5B22B5BB17BB4F4D00AC44CA /* Default.png in Resources */,
+				5B22B5BD17BB4F4D00AC44CA /* Default@2x.png in Resources */,
+				5B22B5BF17BB4F4D00AC44CA /* Default-568h@2x.png in Resources */,
+				5B22B5C517BB4F4D00AC44CA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B22B5A117BB4F4D00AC44CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B22B5B517BB4F4D00AC44CA /* main.m in Sources */,
+				5B22B5B917BB4F4D00AC44CA /* AppDelegate.m in Sources */,
+				5B22B5C217BB4F4D00AC44CA /* ViewController.m in Sources */,
+				5B22B5CF17BB553D00AC44CA /* JSConnector.m in Sources */,
+				5B22B5D117BB5E5D00AC44CA /* java2javascript.nocache.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B22B5B117BB4F4D00AC44CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B22B5B217BB4F4D00AC44CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B22B5C317BB4F4D00AC44CA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B22B5C417BB4F4D00AC44CA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B22B5C617BB4F4D00AC44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B22B5C717BB4F4D00AC44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B22B5C917BB4F4D00AC44CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gwtOniOS/gwtOniOS-Prefix.pch";
+				INFOPLIST_FILE = "gwtOniOS/gwtOniOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B22B5CA17BB4F4D00AC44CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gwtOniOS/gwtOniOS-Prefix.pch";
+				INFOPLIST_FILE = "gwtOniOS/gwtOniOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B22B5A017BB4F4D00AC44CA /* Build configuration list for PBXProject "gwtOniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B22B5C617BB4F4D00AC44CA /* Debug */,
+				5B22B5C717BB4F4D00AC44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B22B5C817BB4F4D00AC44CA /* Build configuration list for PBXNativeTarget "gwtOniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B22B5C917BB4F4D00AC44CA /* Debug */,
+				5B22B5CA17BB4F4D00AC44CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B22B59D17BB4F4D00AC44CA /* Project object */;
+}

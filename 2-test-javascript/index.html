@@ -3,10 +3,13 @@
     <script type="text/javascript" src="../1-java2javascript/target/java2javascript-1.0-SNAPSHOT/java2javascript/java2javascript.nocache.js"></script>
 
     <script>
-      function go(){
+      function testGWT(){
         var bl = new jsc.BusinessLogic();
         var add = bl.addNumber(1, 2);
         alert("1 + 2 ="+add);
+
+        var helloUser = bl.buildHelloUser("Sochipan");
+        alert(helloUser.sayHi());
       }
 
       function myInit() {
@@ -16,9 +19,10 @@
   </head>
 
 <body>
-  so2
 
-  <button onclick="go();" />
+  <br />
+  <br />
+  <button onclick="testGWT();" >test GWT library</button>
 
 </body>
 </html>

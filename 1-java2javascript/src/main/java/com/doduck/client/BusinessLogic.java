@@ -20,7 +20,7 @@ public class BusinessLogic implements Exportable{
 		return a+b;
 	}
 	
-	@NoExport
+	
 	public HelloUser buildHelloUser(String name){
 		User user = new User();
 		user.setName(name);
@@ -33,8 +33,11 @@ public class BusinessLogic implements Exportable{
 		List<String> someNames = new ArrayList<String>();
 		someNames.add("doduck");
 		someNames.add("martin");
-		someNames.add("magakian");
+		someNames.add("the developers");
+		someNames.add("!!! doduck proto !!");
+		someNames.add("javascript");
+		someNames.add("GWT");
+		someNames.add("java");
 		return someNames;
 	}
-	
 }
