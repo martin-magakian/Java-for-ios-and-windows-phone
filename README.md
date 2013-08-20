@@ -8,7 +8,7 @@ Full documentation at:
 
 [Java on iOS and Windows Phone using GWT (en)](http://doduck.com/java-ios-windows-phone/)
 
-[Java sur iOS et Windows Phone grâce à GWT (fr)](http://doduck.com/java-sur-ios-et-windows-phone/)
+[Java sur iOS et Windows Phone grâce à GWT (fr)](http://doduck.fr/java-sur-ios-et-windows-phone/)
 
 
 
