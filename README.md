@@ -29,5 +29,6 @@ License
 =========
 MIT License (MIT)
 
-![githalytics.com alpha](https://cruel-carlota.pagodabox.com/53e71dc9ebd4526c439e1ad6788449d5 "githalytics.com")
+by [Anomaly Detection](https://anomaly.io)
+
 
